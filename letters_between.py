@@ -15,3 +15,5 @@ elif distance == 2:
     print(f'There is 1 letter between {first} and {last}.')
 elif distance >= 1:
     print(f'There are 0 letters between {first} and {last}.')
+elif distance == 0:
+    print(f'There are 0 letters between {first} and {last}.')
